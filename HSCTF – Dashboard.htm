@@ -1,0 +1,357 @@
+
+<!-- saved from url=(0031)https://compete.hsctf.com/team/ -->
+<html class="gr__compete_hsctf_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HSCTF –  Dashboard</title>
+<link rel="stylesheet" type="text/css" href="./HSCTF – Dashboard_files/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="./HSCTF – Dashboard_files/vis.min.css">
+<link href="./HSCTF – Dashboard_files/icon" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./HSCTF – Dashboard_files/main.css">
+<script async="" src="./HSCTF – Dashboard_files/analytics.js"></script><script>
+            function dismissNotification(id) {
+                api.makeCall("/dismiss/" + id + ".json", {_csrf_token: "tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf"}, function() {
+                    $("#notification" + id).slideUp();
+                });
+            }
+        </script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style type="text/css">
+    section:not(first-child) {
+        margin-top: 15px;
+    }
+    section:last-child {
+        margin-bottom: 30px;
+    }
+    td:last-child, th:last-child {
+        text-align: right;
+    }
+    form {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .bigger {
+        font-size: medium;
+    }
+    h4 {
+        font-weight: 400;
+    }
+    th {
+        font-weight: normal;
+    }
+    td, h5 {
+        font-weight: 300;
+    }
+</style>
+</head>
+<body class="competition-page" data-gr-c-s-loaded="true">
+<header>
+<nav class="top-nav blue nav-fixed">
+<div class="nav-wrapper">
+<div><a href="https://compete.hsctf.com/team/#" data-activates="nav-mobile" class="button-collapse top-nav full"><i class="material-icons">menu</i></a></div>
+<img class="top-logo" src="./HSCTF – Dashboard_files/ic.png">
+<ul class="right hide-on-med-and-down">
+<li><a href="https://compete.hsctf.com/logout/">Logout</a></li>
+<li><a href="https://compete.hsctf.com/user/">chrisj164</a></li>
+</ul>
+</div>
+</nav>
+<ul id="nav-mobile" class="side-nav fixed" style="width: 240px;">
+<li><a href="https://compete.hsctf.com/challenges/">
+<div class="side-icon"><i class="material-icons blue-text">flag</i></div>
+<div class="side-text">Challenges</div>
+</a></li>
+<li><a href="https://compete.hsctf.com/scoreboard/">
+<div class="side-icon"><i class="material-icons red-text">timeline</i></div>
+<div class="side-text">Scoreboard</div>
+</a></li>
+<li><a href="https://compete.hsctf.com/chat/" target="_blank">
+<div class="side-icon"><i class="material-icons green-text">chat</i></div>
+<div class="side-text">Chat</div>
+</a></li>
+<li><a href="https://compete.hsctf.com/tickets/">
+<div class="side-icon"><i class="material-icons amber-text">report_problem</i></div>
+<div class="side-text">Tickets</div>
+</a></li>
+<div class="divider"></div>
+<li><a href="https://compete.hsctf.com/team/">
+<div class="side-icon"><i class="material-icons indigo-text">track_changes</i></div>
+<div class="side-text">My Team</div>
+</a></li>
+<li><a href="https://compete.hsctf.com/user/">
+<div class="side-icon"><i class="material-icons teal-text">account_circle</i></div>
+<div class="side-text">chrisj164</div>
+</a></li>
+<li><a href="https://compete.hsctf.com/logout/">
+<div class="side-icon"><i class="material-icons red-text">block</i></div>
+<div class="side-text">Logout</div>
+</a></li>
+
+</ul>
+</header>
+<div class="cont">
+</div>
+<div class="cont">
+<div class="page-title-wrapper">
+<div class="page-title-tag indigo indigo-text">_</div>
+<div class="page-title white">Peter Math Clan</div>
+</div>
+<section>
+<div class="row">
+<div class="col s12">
+<div class="card blue darken-1">
+<div class="card-content white-text">
+<span class="card-title">Team key: <code>hsctf_djh8w3v8g9vt7sf61wrxcwcztvjiz3xl</code></span>
+<p>Share this with your teammates or teacher, and keep it in a safe place.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="row">
+<div class="col s12 m6">
+<div class="card">
+<div class="card-header teal">
+Team
+</div>
+<div class="card-content">
+<p>Your score is currently 4575. <a href="https://compete.hsctf.com/challenges/">Go solve more challenges!</a></p>
+St. John's Preparatory School.<p></p>
+<p>Your team is eligible for prizes.</p>
+<a class="waves-effect waves-light modal-trigger" href="https://compete.hsctf.com/team/#whyModal">Why?</a>
+</div>
+</div>
+</div>
+<div class="col s12 m6">
+<div class="card">
+<div class="card-header purple">Edit Information</div>
+<div class="card-content">
+<form method="POST">
+<div class="input-field">
+<label for="team-name" class="active">Team Name</label>
+<input required="" maxlength="50" id="team-name" name="team_name" type="text" value="Peter Math Clan">
+</div>
+<div class="input-field">
+<label for="affiliation" class="active">Affiliation</label>
+<input required="" maxlength="100" id="affiliation" name="team_affiliation" type="text" value="St. John&#39;s Preparatory School">
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+<br><br>
+<button class="btn waves-effect waves-light right" type="submit">Update</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="card">
+<div class="card-header green">Members</div>
+<div class="card-content">
+<div class="row">
+<div class="col s10 offset-s1">
+<table>
+<thead>
+<tr>
+<th>Username</th>
+<th>Eligibility Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>chrisj164</td>
+<td>Eligible</td>
+</tr>
+<tr>
+<td>Peter</td>
+<td>Eligible</td>
+</tr>
+<tr>
+<td>jpackard18</td>
+<td>Eligible</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="card">
+<div class="card-header orange">Score Calculation</div>
+<div class="card-content">
+<h5>Solved problems</h5>
+<div class="row">
+<div class="col s10 offset-s1">
+<table>
+<thead>
+<tr><th>Name</th><th>Category</th><th>Time</th><th>Value</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>OK</td>
+<td>algo</td>
+<td><abbr class="time" title="2018-05-19 20:07:46.525323">15 days ago</abbr></td>
+<td>250</td>
+</tr><tr>
+<td>Review</td>
+<td>binary</td>
+<td><abbr class="time" title="2018-05-19 20:12:24.201387">15 days ago</abbr></td>
+<td>100</td>
+</tr><tr>
+<td>BunSpace</td>
+<td>web</td>
+<td><abbr class="time" title="2018-05-26 16:49:38.979784">8 days ago</abbr></td>
+<td>200</td>
+</tr><tr>
+<td>Very Small Primes</td>
+<td>crypto</td>
+<td><abbr class="time" title="2018-05-20 00:17:27.140583">15 days ago</abbr></td>
+<td>200</td>
+</tr><tr>
+<td>Jumper</td>
+<td>binary</td>
+<td><abbr class="time" title="2018-05-20 01:07:06.406387">15 days ago</abbr></td>
+<td>150</td>
+</tr><tr>
+<td>End</td>
+<td>algo</td>
+<td><abbr class="time" title="2018-05-20 22:02:29.657179">14 days ago</abbr></td>
+<td>200</td>
+</tr><tr>
+<td>Master Keys</td>
+<td>crypto</td>
+<td><abbr class="time" title="2018-05-20 22:23:59.324060">14 days ago</abbr></td>
+<td>200</td>
+</tr><tr>
+<td>Blown Apart</td>
+<td>crypto</td>
+<td><abbr class="time" title="2018-05-20 23:29:56.853109">14 days ago</abbr></td>
+<td>350</td>
+</tr><tr>
+<td>CuSmith</td>
+<td>crypto</td>
+<td><abbr class="time" title="2018-05-22 11:34:50.322719">12 days ago</abbr></td>
+<td>300</td>
+</tr><tr>
+<td>Andrew Wiles</td>
+<td>other</td>
+<td><abbr class="time" title="2018-05-23 00:06:00.329664">12 days ago</abbr></td>
+<td>250</td>
+</tr><tr>
+<td>Survey</td>
+<td>other</td>
+<td><abbr class="time" title="2018-05-23 11:07:54.939952">11 days ago</abbr></td>
+<td>25</td>
+</tr><tr>
+<td>Spoilers</td>
+<td>crypto</td>
+<td><abbr class="time" title="2018-05-23 12:54:53.325391">11 days ago</abbr></td>
+<td>100</td>
+</tr><tr>
+<td>Teacher Struggles</td>
+<td>algo</td>
+<td><abbr class="time" title="2018-05-23 17:23:21.981830">11 days ago</abbr></td>
+ <td>100</td>
+</tr><tr>
+<td>Chopsticks</td>
+<td>algo</td>
+<td><abbr class="time" title="2018-05-23 17:43:56.976543">11 days ago</abbr></td>
+<td>100</td>
+</tr><tr>
+<td>a_real_ear_twister</td>
+<td>other</td>
+<td><abbr class="time" title="2018-05-23 23:29:11.577852">11 days ago</abbr></td>
+<td>300</td>
+</tr><tr>
+<td>Masochist Keith</td>
+<td>algo</td>
+<td><abbr class="time" title="2018-05-23 23:59:43.974352">11 days ago</abbr></td>
+<td>200</td>
+</tr><tr>
+<td>Leaky Ascii</td>
+<td>other</td>
+<td><abbr class="time" title="2018-05-24 09:12:01.069786">11 days ago</abbr></td>
+<td>100</td>
+</tr><tr>
+<td>Protocol</td>
+<td>web</td>
+<td><abbr class="time" title="2018-05-24 14:27:36.157783">10 days ago</abbr></td>
+<td>200</td>
+</tr><tr>
+<td>password</td>
+<td>web</td>
+<td><abbr class="time" title="2018-05-24 15:20:28.544046">10 days ago</abbr></td>
+<td>100</td>
+</tr><tr>
+<td>Birthday Party Surprise!</td>
+<td>reversal</td>
+<td><abbr class="time" title="2018-05-24 22:55:25.777926">10 days ago</abbr></td>
+<td>100</td>
+</tr><tr>
+<td>Spambots</td>
+<td>web</td>
+<td><abbr class="time" title="2018-05-25 13:07:32.909555">9 days ago</abbr></td>
+<td>400</td>
+</tr><tr>
+<td>Special Alien Print</td>
+<td>other</td>
+<td><abbr class="time" title="2018-05-25 14:30:37.785238">9 days ago</abbr></td>
+<td>100</td>
+</tr><tr>
+<td>Stolen Sheets</td>
+<td>crypto</td>
+<td><abbr class="time" title="2018-05-25 22:16:29.360326">9 days ago</abbr></td>
+<td>250</td>
+</tr><tr>
+<td>Angles and Iteration</td>
+<td>reversal</td>
+<td><abbr class="time" title="2018-05-26 10:40:18.284051">8 days ago</abbr></td>
+<td>300</td>
+</tr></tbody>
+</table>
+</div>
+</div>
+<p>No score adjustments have been made.</p>
+</div>
+</div>
+</div>
+<div id="whyModal" class="modal">
+<div class="modal-content">
+<h4>Why am I eligible for prizes?</h4>
+<p>Teams are eligible if they have no more than four members, are from the United States, and are composed of middle and highschoolers. We require teams to be from the United States to compete for prizes because we may be unable to ship out the prizes internationally. In addition, HSCTF is a CTF designed by and for highschoolers, and so to follow in the spirit of that, we only allow high- and middleschoolers to compete for prizes.</p>
+<h4>Can I still compete?</h4>
+<p>Yes, you can still compete for the top ranks and play along like a normal contestant.</p>
+</div>
+<div class="modal-footer">
+<a href="https://compete.hsctf.com/team/#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Got it!</a>
+</div>
+</div>
+</div>
+<script src="./HSCTF – Dashboard_files/jquery.min.js"></script>
+<script src="./HSCTF – Dashboard_files/materialize.min.js"></script>
+<script src="./HSCTF – Dashboard_files/jquery.timeago.min.js"></script>
+<script src="./HSCTF – Dashboard_files/vis.min.js"></script>
+<script src="./HSCTF – Dashboard_files/api.js"></script>
+<script src="./HSCTF – Dashboard_files/main.js"></script>
+<script>
+        $(function() {
+            $("abbr.time[title='1970-01-01 00:00:00']").attr("title", "").removeClass("time").html("None");
+            $("abbr.time").timeago();
+            $('.button-collapse').sideNav();
+        });
+        </script>
+<script id="toasts" type="text/javascript">
+            
+        </script>
+<script>$('.modal-trigger').leanModal();</script>
+<script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-64770282-2', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
+<div class="hiddendiv common"></div><div class="drag-target" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div></body></html>

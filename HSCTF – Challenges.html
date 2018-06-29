@@ -1,0 +1,1263 @@
+
+<!-- saved from url=(0037)https://compete.hsctf.com/challenges/ -->
+<html class="gr__compete_hsctf_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HSCTF –  Challenges</title>
+<link rel="stylesheet" type="text/css" href="./HSCTF – Challenges_files/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="./HSCTF – Challenges_files/vis.min.css">
+<link href="./HSCTF – Challenges_files/icon" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./HSCTF – Challenges_files/main.css">
+<script async="" src="./HSCTF – Challenges_files/analytics.js"></script><script>
+            function dismissNotification(id) {
+                api.makeCall("/dismiss/" + id + ".json", {_csrf_token: "tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf"}, function() {
+                    $("#notification" + id).slideUp();
+                });
+            }
+        </script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body class="competition-page" data-gr-c-s-loaded="true">
+<header>
+<nav class="top-nav blue nav-fixed">
+<div class="nav-wrapper">
+<div><a href="https://compete.hsctf.com/challenges/#" data-activates="nav-mobile" class="button-collapse top-nav full"><i class="material-icons">menu</i></a></div>
+<img class="top-logo" src="./HSCTF – Challenges_files/ic.png">
+<ul class="right hide-on-med-and-down">
+<li><a href="https://compete.hsctf.com/logout/">Logout</a></li>
+<li><a href="https://compete.hsctf.com/user/">chrisj164</a></li>
+</ul>
+</div>
+</nav>
+<ul id="nav-mobile" class="side-nav fixed" style="left: 0px;">
+<li><a href="https://compete.hsctf.com/challenges/">
+<div class="side-icon"><i class="material-icons blue-text">flag</i></div>
+<div class="side-text">Challenges</div>
+</a></li>
+<li><a href="https://compete.hsctf.com/scoreboard/">
+<div class="side-icon"><i class="material-icons red-text">timeline</i></div>
+<div class="side-text">Scoreboard</div>
+</a></li>
+<li><a href="https://compete.hsctf.com/chat/" target="_blank">
+<div class="side-icon"><i class="material-icons green-text">chat</i></div>
+<div class="side-text">Chat</div>
+</a></li>
+<li><a href="https://compete.hsctf.com/tickets/">
+<div class="side-icon"><i class="material-icons amber-text">report_problem</i></div>
+<div class="side-text">Tickets</div>
+</a></li>
+<div class="divider"></div>
+<li><a href="https://compete.hsctf.com/team/">
+<div class="side-icon"><i class="material-icons indigo-text">track_changes</i></div>
+<div class="side-text">My Team</div>
+</a></li>
+<li><a href="https://compete.hsctf.com/user/">
+<div class="side-icon"><i class="material-icons teal-text">account_circle</i></div>
+<div class="side-text">chrisj164</div>
+</a></li>
+<li><a href="https://compete.hsctf.com/logout/">
+<div class="side-icon"><i class="material-icons red-text">block</i></div>
+<div class="side-text">Logout</div>
+</a></li>
+</ul>
+</header>
+<div class="cont">
+</div>
+<div class="cont">
+<div class="row">
+<div class="col s6">
+<div class="left">
+<div class="select-wrapper initialized"><span class="caret">▼</span><input type="text" class="select-dropdown" readonly="true" data-activates="select-options-f7177b61-5542-c09c-b347-294fd89c02c4" value="Show all"><ul id="select-options-f7177b61-5542-c09c-b347-294fd89c02c4" class="dropdown-content select-dropdown"><li class=""><span>Show all</span></li><li class=""><span>algo</span></li><li class=""><span>binary</span></li><li class=""><span>crypto</span></li><li class=""><span>other</span></li><li class=""><span>reversal</span></li><li class=""><span>web</span></li></ul><select onchange="filterCategories(this);" class="initialized">
+<option value="*">Show all</option>
+<option>algo</option>
+<option>binary</option>
+<option>crypto</option>
+
+<option>other</option>
+<option>reversal</option>
+<option>web</option>
+</select></div>
+</div>
+</div>
+<div class="col s6">
+<span class="right">
+<a class="btn" onclick="$(&#39;.check-icon&#39;).each((a, b) =&gt; {$(b).parent().parent().hide()})">Hide Solved</a>
+<a class="btn" href="https://compete.hsctf.com/challenges/#" id="toggleState">Collapse all challenges</a>
+</span>
+</div>
+</div>
+<hr>
+<p>Solve these challenges!</p>
+<span class="left"><h4>HSCTF</h4></span>
+<span class="right"><a class="stage-collapse" data-collapse="HSCTF" href="https://compete.hsctf.com/challenges/#">Toggle</a></span>
+<div class="clearfix"></div>
+<ul class="collapsible popout" data-collapsible="expandable">
+<li class="challenge" data-category="other" data-stage="HSCTF">
+<div id="header-Survey" data-challenge="Survey" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="11e928ab-9f81-d616-3cb2-bee545954564"></div>
+<div class="challenge-text truncate">Survey</div>
+<span class="right">
+<span>The HSCTF Team</span>
+<b>·</b>
+<span id="solves-Survey">368</span> solves
+<b>·</b>
+other
+<b>·</b>
+25 pt
+<i id="check-Survey" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Fill out <a href="https://goo.gl/forms/bAvX1FMpLycN2pjQ2">our survey</a> to get points.
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Survey/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="reversal" data-stage="HSCTF">
+<div id="header-Birthday Party Surprise!" data-challenge="Birthday Party Surprise!" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="9f1f023f-59c9-8597-5f06-1b2083debf67"></div>
+<div class="challenge-text truncate">Birthday Party Surprise!</div>
+<span class="right">
+<span>Shray Vats, Disha Kohli</span>
+<b>·</b>
+<span id="solves-Birthday Party Surprise!">171</span> solves
+<b>·</b>
+reversal
+<b>·</b>
+100 pt
+<i id="check-Birthday Party Surprise!" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith has gotten an invite to Alice's birthday party. However, Alice was sneaky and didn't give out the location of the party explicitly. Instead, she gave Keith a piece of code, which when reversed, gave the location. Can you help Keith figure out the location?<br>You can download the necessary Java file <a href="https://compete.hsctf.com/static/problem_static/BirthdaySurprise_07c0f85c9cdd9e39203c1205699eca60b489fbf80cc1ed586e39742f67f93de5.java">here</a>.
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Birthday%20Party%20Surprise%21/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="algo" data-stage="HSCTF">
+<div id="header-Chopsticks" data-challenge="Chopsticks" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="5759ecc7-08dd-7258-935e-608f36600414"></div>
+<div class="challenge-text truncate">Chopsticks</div>
+<span class="right">
+<span>Jakob Degen</span>
+<b>·</b>
+<span id="solves-Chopsticks">192</span> solves
+<b>·</b>
+ algo
+<b>·</b>
+100 pt
+<i id="check-Chopsticks" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Now that it has been well established that Keith is a professional chopstick collector, she is tasking you with possibly her greatest challenge yet: Keith wants to be able to better keep track of her chopsticks, and she wants to indulge her obsession with bases as she does so. Because of this, she has provided you <a href="https://compete.hsctf.com/dynamic/Chopsticks">with her chopstick collection</a>. She needs you to count how many of each type of chopstick ('i', 'I', 'l', '1', '!') there are, and then find the number of digits in the base 2, base 3, base 4, ... base 10 representation of each count. The flag is all 45 of these values summed together.
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Chopsticks/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="other" data-stage="HSCTF">
+<div id="header-Leaky Ascii" data-challenge="Leaky Ascii" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="1c0e0e1a-aeaf-5289-fa72-b8146fbd4c78"></div>
+<div class="challenge-text truncate">Leaky Ascii</div>
+<span class="right">
+<span>Parth Shastri</span>
+<b>·</b>
+<span id="solves-Leaky Ascii">102</span> solves
+<b>·</b>
+other
+<b>·</b>
+100 pt
+<i id="check-Leaky Ascii" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith found an open port at <code>nc shell.hsctf.com 10101</code> and it seems like there is a hidden message. Can you help Keith identify it?
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Leaky%20Ascii/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="web" data-stage="HSCTF">
+<div id="header-password" data-challenge="password" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="c8a28cc6-529f-6909-7ea4-6c38e2f3b957"></div>
+<div class="challenge-text truncate">password</div>
+<span class="right">
+<span>Soumil Mukherjee</span>
+<b>·</b>
+<span id="solves-password">156</span> solves
+<b>·</b>
+web
+<b>·</b>
+100 pt
+<i id="check-password" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith found a seemingly secret website somewhere on <a href="http://206.189.179.133/secret1/">BunSpace</a>, and he wants to find out the flag. However, since he is not an administrator, he doesn't know the password. Fortunately, he knows an administrator personally, and suspects that he was too lazy to use a secure password. Help him find the flag!
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/password/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="binary" data-stage="HSCTF">
+<div id="header-Review" data-challenge="Review" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="ebbbd537-3b36-ece5-3b12-9f2be62cafa4"></div>
+<div class="challenge-text truncate">Review</div>
+<span class="right">
+<span>Spencer H</span>
+<b>·</b>
+<span id="solves-Review">247</span> solves
+<b>·</b>
+binary
+<b>·</b>
+100 pt
+<i id="check-Review" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith found this cool site and told me to check it out at <code>nc shell.hsctf.com 10000</code>!<br>Files: <a href="https://compete.hsctf.com/static/problem_static/review_c4d1d420aebe1f7a9a93333b6ba07400ba140302a92d95347ce2b8008b8bdef1">review</a> <a href="https://compete.hsctf.com/static/problem_static/review_920332cf1a7d312d7a5e9325a2a2d57640e9689ef9b0279367504eadea2ea5ae.c">review.c</a><br><br>If you have a Mac, open Terminal and run the command above.<br>If you have Windows: download ncat from <a href="https://nmap.org/ncat/">here</a>. Unzip and enter the folder where <code>ncat.exe</code> is located. Right click on WHITE SPACE in Windows Explorer, then select "Open Powershell Window Here", as demonstrated in <a href="https://i.imgur.com/V73sjnZ.png">this image</a>. Now, you can run all netcat comands in the form <code>.
+cat.exe shell.hsctf.com 10000</code>.<br><br>Note that many school networks will block netcat-related connections.<br>The Chrome app originally linked has been flagged by some school administrators.
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Review/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="other" data-stage="HSCTF">
+<div id="header-Special Alien Print" data-challenge="Special Alien Print" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="6aa57f1b-c069-695d-109c-44fd03a6fe37"></div>
+<div class="challenge-text truncate">Special Alien Print</div>
+<span class="right">
+<span>Vaibhav Sanjay</span>
+<b>·</b>
+<span id="solves-Special Alien Print">123</span> solves
+<b>·</b>
+other
+<b>·</b>
+100 pt
+<i id="check-Special Alien Print" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p><strong>Aliens have come and set foot on Earth!</strong> <br><br>(But don't worry, they just want to communicate). <br>The aliens send a message to a programmer, Keith, who just happened to be nearby. Keith is interested in the aliens and she wants to be able to communicate with them. <br>The aliens handed Keith some code from their language, after looking over it a few times, Keith notices a few important features. <br><code> - Any ASCII characters that need to be printed are done by writing %$X^$, where X is the text to be printed<br> - X has to be formatted properly as well. An ASCII character can be contained in X, and you write it by putting (num) inside of X, where num is the ASCII number. But there is a catch: The order of ASCII has been reversed!<br> So ASCII now starts with 'DEL', then '~', and so on. For example, to print ~, X would be (1)<br> - You can print multiple ASCII characters in X, like (num)(num2)<br> - Finally, you can print multiple characters at a time by doing *rep after a character. For example (num)*2(num2) in place of X would print out the backwards ASCII character of num two times and then it will print num2</code>You need to write a program in their language to greet the aliens but there is one problem: The aliens don't have much space on their "computer." It is very tiny and primitive compared to ours. You need to be as efficient as possible to write the words "Hello, how've you been?" using their program. The flag is the program.<br>NOTE: Do not print the "".
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Special%20Alien%20Print/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="crypto" data-stage="HSCTF">
+<div id="header-Spoilers" data-challenge="Spoilers" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="d8e959c7-5069-26f6-b7de-baf226d12dc3"></div>
+<div class="challenge-text truncate">Spoilers</div>
+<span class="right">
+<span>Jakob Degen</span>
+<b>·</b>
+<span id="solves-Spoilers">236</span> solves
+<b>·</b>
+crypto
+<b>·</b>
+100 pt
+<i id="check-Spoilers" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>As Keith was browsing the interwebs, she stumbled across a strange thread. In it, the cool kids were discussing the latest movies. Then Keith saw a piece of text that confused her. It was labelled 'spoiler warning', but Keith couldn't figure out for the life of her what it meant.<br><br>Can you help Keith decode <code>xrvguxvyyrqqhzoyrqber</code>?
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Spoilers/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="algo" data-stage="HSCTF">
+<div id="header-Teacher Struggles" data-challenge="Teacher Struggles" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="3526fd4e-d900-f263-0362-e19f19bb95a7"></div>
+<div class="challenge-text truncate">Teacher Struggles</div>
+<span class="right">
+<span>Disha Kohli</span>
+<b>·</b>
+<span id="solves-Teacher Struggles">270</span> solves
+<b>·</b>
+algo
+<b>·</b>
+100 pt
+<i id="check-Teacher Struggles" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith's Computer Science teacher tells Keith that he will let Keith practice for HSCTF during class if she can solve a problem. Keith's Computer Science teacher gives Keith the following string: "zkdxmxkhvgofoqvyeccuxokfimbtyhrbkpougnvzbhseotymydwbadenbzxrzfanxetkvyiczvoybearnqszydnwhrjamlpcqfxi" and tells Keith that she must start with 0 and add one everytime she sees an "h," add one and then multiply by two everytime she sees an "s," add one and multiply by three everytime she sees a "c," add one and multiply by four everytime she sees a "t," and add one and multiply by five everytime she sees an "f." The answer to the problem will be the resulting integer. Can you help Keith solve the problem?
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Teacher%20Struggles/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="reversal" data-stage="HSCTF">
+<div id="header-The Safe" data-challenge="The Safe" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="d25dbbba-c149-3455-0eb4-6d93e7159d69"></div>
+<div class="challenge-text truncate">The Safe</div>
+<span class="right">
+<span>Akhil Paulraj</span>
+<b>·</b>
+ <span id="solves-The Safe">67</span> solves
+<b>·</b>
+reversal
+<b>·</b>
+100 pt
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith return home to see a note left on her desk, which read: 'I have found the code to your secret safe in the local bank. However, there is an array of integers missing in your encryption. If you do not find the array of integers I am looking for, I will come to find you.' Help Keith determine the contents of the missing array. Submit the contents as one concatenated string with spaces between each number. Ex: an array containing [1,2,3] would be submitted as '1 2 3'<br><br><strong>Note:</strong> The flag does not contain '0'.<br><br><a href="https://compete.hsctf.com/static/problem_static/TheSafe_71a975bde7dee57d7949ae05cff10bcdbbd963b73d4ee5aac51ae158363f25ad.class">File</a>
+<br><br>
+<a href="https://compete.hsctf.com/challenges/The%20Safe/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/The%20Safe/" data-challenge="The Safe" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-The Safe" name="flag" type="text">
+<label for="flag-The Safe">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="binary" data-stage="HSCTF">
+<div id="header-Jumper" data-challenge="Jumper" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="e63d1f00-a2cc-46b2-bc15-b3bb51595973"></div>
+<div class="challenge-text truncate">Jumper</div>
+<span class="right">
+<span>Spencer H</span>
+<b>·</b>
+<span id="solves-Jumper">91</span> solves
+<b>·</b>
+binary
+<b>·</b>
+150 pt
+<i id="check-Jumper" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Feeling nothing / Freely speed up / Landing, Stepping / Jumping, Jumper. Where is Keith hiding? Find out at <code>nc shell.hsctf.com 10001</code><br>Files: <a href="https://compete.hsctf.com/static/problem_static/jumper_1bb00c96a8f0122bcce1ccb889291a823e9ee33c4f041fbd9c42b8e43915aaf8">jumper</a> <a href="https://compete.hsctf.com/static/problem_static/jumper_0fb07296c13d357ebf4cb83a332e2ffcbed3b19a6021a1c5b53853d9e874d91e.c">jumper.c</a>
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Jumper/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="reversal" data-stage="HSCTF">
+<div id="header-An Old Puzzle" data-challenge="An Old Puzzle" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="21ffd402-3269-425b-3439-76608ae29ad7"></div>
+<div class="challenge-text truncate">An Old Puzzle</div>
+<span class="right">
+<span>Vaibhav Sanjay</span>
+<b>·</b>
+<span id="solves-An Old Puzzle">146</span> solves
+<b>·</b>
+reversal
+<b>·</b>
+200 pt
+
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p><strong>While grumbling about having to clean the attic of his house, filled with old remnants of the past, Keith discovers a small puzzle sitting in a pile of junk. Fascinated by it, he decides to try and solve the puzzle.</strong><br>You can download the necessary text files <a href="https://compete.hsctf.com/static/problem_static/AnOldPuzzle_8374f4d8b238f0771001ad0b19e80a751e1199c1f1092a2919e7ff59e4b60924.java">here</a>.
+<br><br>
+<a href="https://compete.hsctf.com/challenges/An%20Old%20Puzzle/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/An%20Old%20Puzzle/" data-challenge="An Old Puzzle" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-An Old Puzzle" name="flag" type="text">
+<label for="flag-An Old Puzzle">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="web" data-stage="HSCTF">
+<div id="header-BunSpace" data-challenge="BunSpace" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="59975c29-094c-cab4-d49e-b5c4279747f4"></div>
+<div class="challenge-text truncate">BunSpace</div>
+<span class="right">
+<span>Soumil Mukherjee</span>
+<b>·</b>
+<span id="solves-BunSpace">46</span> solves
+<b>·</b>
+web
+<b>·</b>
+200 pt
+<i id="check-BunSpace" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith seems to have forgotten his password to his favorite social media network, <a href="http://206.189.179.133/">BunSpace</a>. His username is simply 'keith', find out what his password is!
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/BunSpace/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="algo" data-stage="HSCTF">
+<div id="header-End" data-challenge="End" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="bff17655-09cf-0809-98d3-2aed73694fa3"></div>
+<div class="challenge-text truncate">End</div>
+<span class="right">
+<span>Matthew Ye</span>
+<b>·</b>
+<span id="solves-End">56</span> solves
+<b>·</b>
+algo
+<b>·</b>
+200 pt
+<i id="check-End" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith is in an airport and his flight has been delayed. To help pass the time, he stares at the square floor tiles, and while doing so, notices that some of the tiles are chipped. He wonders: how many ways are there to get from one corner of the terminal to the other without passing through any chipped tiles?<br>A description of the rectangular floor scheme is given in <a href="https://compete.hsctf.com/static/problem_static/tiles_c22a1fe073b3047380c9e44d64bb0dfd706cf259d5c827b799de20a2e9c1d6aa.txt"> here </a>. Each tile is represented as a number; 1 if it is chipped and 0 if it is not. Your job is to go from the bottom-left corner to the upper-right corner, moving only to the right and upwards. The flag is this number mod 10^9 + 7.
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/End/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="algo" data-stage="HSCTF">
+<div id="header-Masochist Keith" data-challenge="Masochist Keith" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="c85bc1a1-6c65-65d5-62df-f8e61dde87b3"></div>
+<div class="challenge-text truncate">Masochist Keith</div>
+<span class="right">
+<span>Alan Yan</span>
+<b>·</b>
+<span id="solves-Masochist Keith">52</span> solves
+<b>·</b>
+algo
+<b>·</b>
+200 pt
+<i id="check-Masochist Keith" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>After years of therapy, Keith has finally embraced her inner masochist and is in the mood for running. There are several designated points on the plane. Keith will choose two of the designated points and run from one point to the other in a straight line. Since she's a masochist, she wants to choose the longest distance to run. The flag will be the distance multiplied by 10^8 rounded to the nearest integer.<br><br>You can download the points <a href="https://compete.hsctf.com/static/problem_static/masochist_e62be907e20ae751fa55e9a5766d9bcc6f8630354657d1bad273f4b797f868ee.txt">here</a>
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Masochist%20Keith/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="crypto" data-stage="HSCTF">
+<div id="header-Master Keys" data-challenge="Master Keys" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="0e345955-7bd3-6471-0013-99521a67dbee"></div>
+<div class="challenge-text truncate">Master Keys</div>
+<span class="right">
+<span>Alan Yan</span>
+<b>·</b>
+<span id="solves-Master Keys">43</span> solves
+<b>·</b>
+crypto
+<b>·</b>
+200 pt
+<i id="check-Master Keys" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>During their late-night discourse, Keith finds a number d1 that functions as a private key to Alice's public key (N,e). Surprisingly, Alice tells Keith a different number d2 that she used for the private key. Given the information below, the flag will be the sum (in decimal) of the primes that divide N, taken modulo 1000000007.<br> <br>N is the product of two primes. <br><a href="https://compete.hsctf.com/static/problem_static/keys_7bacf5468b5094d230351809702874a29b7e9caf186370161ce4f2253e7661e5.txt">keys.txt</a>
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Master%20Keys/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="reversal" data-stage="HSCTF">
+<div id="header-Opinions" data-challenge="Opinions" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="8c939ee4-e4ed-06a3-e6c9-dce6e3898a78"></div>
+<div class="challenge-text truncate">Opinions</div>
+<span class="right">
+<span>Akhil Paulraj</span>
+<b>·</b>
+<span id="solves-Opinions">53</span> solves
+<b>·</b>
+reversal
+<b>·</b>
+200 pt
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith has a strong opinion regarding one of his favorite recent activities and shares it through <a href="https://compete.hsctf.com/static/problem_static/Opinions_82a0122ec9d9a34bfbdb604a2d3a8b4e03327b21b3f7341c6c75ae2d706c9d9c.class">this code</a>. Find the flag.
+<br><br>
+<a href="https://compete.hsctf.com/challenges/Opinions/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/Opinions/" data-challenge="Opinions" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-Opinions" name="flag" type="text">
+<label for="flag-Opinions">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="web" data-stage="HSCTF">
+<div id="header-Protocol" data-challenge="Protocol" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="b0091d57-24a0-3fc9-13f2-fd34a12a81a9"></div>
+<div class="challenge-text truncate">Protocol</div>
+<span class="right">
+<span>Soumil Mukherjee</span>
+<b>·</b>
+<span id="solves-Protocol">73</span> solves
+<b>·</b>
+web
+<b>·</b>
+200 pt
+<i id="check-Protocol" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Alice sends a message to Bob saying to meet her somewhere. But Keith sees it, too, and goes to the place. Bob is delayed, and Alice and Keith meet.<br>Alice thinks Keith isn't good enough at CS to have found out that Alice and Bob were meeting there, but Keith argues that Alice sends secrets through a very insecure method. So, to prove it, Keith asks you to find out where Alice and Bob met, with your only prior knowledge being that it somehow involved <a href="http://206.189.179.133/">BunSpace</a>. See if you can find out where Alice met Bob.
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Protocol/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="algo" data-stage="HSCTF">
+<div id="header-Riverside Games" data-challenge="Riverside Games" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="41369920-1062-01bb-464d-2becfe9ec5db"></div>
+<div class="challenge-text truncate">Riverside Games</div>
+<span class="right">
+<span>Alan Yan</span>
+<b>·</b>
+<span id="solves-Riverside Games">15</span> solves
+<b>·</b>
+algo
+<b>·</b>
+200 pt
+<div class="check-pad"></div>
+</span>
+</div>
+ <div class="collapsible-body">
+<p><a href="https://docs.google.com/document/d/1QHf4vI3bLT4ygA0fN8Y0R-E7oh-aSVDwVg48QAhCbUQ/edit?usp=sharing">Problem Statement</a>.<br><br>You can find the text file <a href="https://compete.hsctf.com/static/problem_static/file_c6fdf3c3d4590bced6bb4307415bd2387691bf0456456f4240c78dc37a704c7a.txt">here</a>.
+<br><br>
+<a href="https://compete.hsctf.com/challenges/Riverside%20Games/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/Riverside%20Games/" data-challenge="Riverside Games" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-Riverside Games" name="flag" type="text">
+<label for="flag-Riverside Games">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="crypto" data-stage="HSCTF">
+<div id="header-Very Small Primes" data-challenge="Very Small Primes" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="5141fd63-c265-4a25-b49b-2138baa946bd"></div>
+<div class="challenge-text truncate">Very Small Primes</div>
+<span class="right">
+<span>Alan Yan</span>
+<b>·</b>
+<span id="solves-Very Small Primes">66</span> solves
+<b>·</b>
+crypto
+<b>·</b>
+200 pt
+<i id="check-Very Small Primes" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>During their algebraic geometry class, Pawel and Keith had a conversation. A short transcript of the conversation is given below:<br>Keith: "Pawel, I want to send you a message."<br>Pawel: "Ok".<br><br>To receive Keith's message, Pawel asks his cousins Simone and Simtwo to give him two primes p, q. Pawel then writes his public key (N, e) on the blackboard in the front of the class (where N = pq). Keith then promptly writes the number C on the blackboard. Pawel gives a thumbs up, signifying that he received the message. <br>Craig saw the first exchange between Keith and Pawel and he wants to know what Keith's message is. Luckily, Craig knows that Simone can only give numbers with at most 6 digits (when written in base 10) and he was able to find the message.<br> <br>N = 0x10722aa034ca559f3e30fdd3a5fbdbb6f2eede584f4aedc764f0bf8a72bc7853ccc874e975563fa80348cbd3355e36903e5cbbc4ce7ba91ca29989b8a09fe3212931e4421a3460501c91aa2b47729eb114c22f15d87d11deddd102f576704dd8ae8aca12afad9e0fbf909f7be534ff73fc17d2ef11ac76b2eaa9a62b7ffc0bd <br>e = 65537<br>C = 0x502c9f367b231c49a36ed5353f9afdcc4ed7c262f593995085ab44e017c3ebb912fa94b7b06213bb9cb9ea052bdb70af922b54617a035c82be819e7f4209e5718901688be800669247a449ea8bd6f8328090396117ae6b3a292eb4f1de1806f81442d7641d35c68bd32d44f21fe36a1128bbc84258904619f749e2692b8bca<br><br>Find the flag.<br><br>Note: The flag is an ascii string.
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Very%20Small%20Primes/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="other" data-stage="HSCTF">
+<div id="header-Andrew Wiles" data-challenge="Andrew Wiles" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="33118076-3cf1-681a-cdb9-a6128f13ac24"></div>
+<div class="challenge-text truncate">Andrew Wiles</div>
+<span class="right">
+<span>Ezra Edelman, Spencer H</span>
+<b>·</b>
+<span id="solves-Andrew Wiles">77</span> solves
+<b>·</b>
+other
+<b>·</b>
+250 pt
+<i id="check-Andrew Wiles" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith claims that he's disproven Fermat's Last Theorem for n = 3! He says if you can do it too at <code>nc shell.hsctf.com 9999</code>, he'll reward you with a flag...
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Andrew%20Wiles/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="other" data-stage="HSCTF">
+<div id="header-Andrew Wiles 2" data-challenge="Andrew Wiles 2" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="44fdfce6-3cf9-86e5-a50a-6dab87400764"></div>
+<div class="challenge-text truncate">Andrew Wiles 2</div>
+<span class="right">
+<span>Ezra Edelman</span>
+<b>·</b>
+<span id="solves-Andrew Wiles 2">42</span> solves
+<b>·</b>
+other
+<b>·</b>
+250 pt
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith thinks something is fishy about Fermat's Last Theorem for n = 3. She says that to be completely sure this time, she used python math to check. Help give Keith a solution at <code>nc shell.hsctf.com 10103</code>and she'll reward you with a flag...
+<br><br>
+<a href="https://compete.hsctf.com/challenges/Andrew%20Wiles%202/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/Andrew%20Wiles%202/" data-challenge="Andrew Wiles 2" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-Andrew Wiles 2" name="flag" type="text">
+<label for="flag-Andrew Wiles 2">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="algo" data-stage="HSCTF">
+<div id="header-OK" data-challenge="OK" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="f3de65c4-6523-5a4d-f731-aa5d09f2fdf6"></div>
+<div class="challenge-text truncate">OK</div>
+<span class="right">
+<span>Matthew Ye</span>
+<b>·</b>
+<span id="solves-OK">132</span> solves
+<b>·</b>
+algo
+<b>·</b>
+250 pt
+<i id="check-OK" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>After ranting at length to a friend, Keith receives a message consisting of a single letter: "K". Incensed at this low-effort response, he responds with "OK", to which his friend replies "KOOK." An astute individual, Keith identifies the pattern instigated by his friend: subsequent messages consist of Keith and his friend replacing each "K" with "OK" and "O" with "KO". Help Keith find how many sets of consecutive Os of length two or greater are in the message on the 1000 reply. The first message, "K", does not count as a reply. Give your answer mod 10^9 + 7.<br><br>To clarify what constitutes "sets of consecutive Os of length two or greater": <br>KOKOOKOOOKOOOO - there are three sets of consecutive Ks of length two or greater in this string ("OO", "OOO", "OOOO").
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/OK/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="crypto" data-stage="HSCTF">
+<div id="header-Stolen Sheets" data-challenge="Stolen Sheets" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="25ea6ccd-d2a5-2e10-7d75-1197c5fa8eb4"></div>
+<div class="challenge-text truncate">Stolen Sheets</div>
+<span class="right">
+<span>Alan Yan</span>
+<b>·</b>
+<span id="solves-Stolen Sheets">239</span> solves
+<b>·</b>
+crypto
+<b>·</b>
+250 pt
+<i id="check-Stolen Sheets" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith finds a sheet of paper with the following items:</p><h2>A Sheet of Paper</h2><table style="width:100%" .="" border="1"><tbody><tr> <td> one </td> <td> qzc </td> </tr><tr> <td> two </td> <td> xwq </td> </tr><tr> <td> three </td> <td> xbpcc </td> </tr><tr> <td> four </td> <td> tqop </td> </tr><tr> <td> five </td> <td> tsfc </td> </tr><tr> <td> six </td> <td> gsn </td> </tr><tr> <td> seven </td> <td> gcfcz </td> </tr><tr> <td> eight </td> <td> cskbx </td> </tr><tr> <td> nine </td> <td> zszc </td> </tr><tr> <td> ten </td> <td> xcz </td> </tr></tbody></table>The flag will be the message "mrkcdpmsuimzstqrlg" decoded.
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Stolen%20Sheets/solves/">View solves</a>
+<p></p>
+</div></li>
+<li class="challenge" data-category="reversal" data-stage="HSCTF">
+<div id="header-Angles and Iteration" data-challenge="Angles and Iteration" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="6f0afb44-970e-f44a-cf3e-f911a310248b"></div>
+<div class="challenge-text truncate">Angles and Iteration</div>
+<span class="right">
+<span>Vaibhav Sanjay</span>
+<b>·</b>
+<span id="solves-Angles and Iteration">45</span> solves
+<b>·</b>
+reversal
+<b>·</b>
+300 pt
+<i id="check-Angles and Iteration" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p><strong>In preparation for HSCTF, Allie and Spenny decide that they need to get ahold of Keith's practice problems. They sneak into Keith's room and find the paper with a piece of code and they soon realize that the right input must be the key to the lock. Can you help them find the flag?</strong><br>You can download the necessary text files <a href="https://compete.hsctf.com/static/problem_static/KeithRectangle_2f81a596ce2886d04daa212dabfc6fb4c5cefeaf4184e9d22ffaafe19172ede2.java">here</a>.
+<br><br><strong>Your team has solved this challenge!</strong><br>
+ <a href="https://compete.hsctf.com/challenges/Angles%20and%20Iteration/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="other" data-stage="HSCTF">
+<div id="header-a_real_ear_twister" data-challenge="a_real_ear_twister" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="ffc3636a-597b-72ca-97ce-9e8823d38dbc"></div>
+<div class="challenge-text truncate">a_real_ear_twister</div>
+<span class="right">
+<span>Parth Shastri</span>
+<b>·</b>
+<span id="solves-a_real_ear_twister">20</span> solves
+<b>·</b>
+other
+<b>·</b>
+300 pt
+<i id="check-a_real_ear_twister" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith has recently listened to the Yanny/Laurel audio clip. Help her find out what others hear at <code>nc shell.hsctf.com 10102</code>. Source code <a href="https://compete.hsctf.com/static/problem_static/ear_051f181d05e9fe5e9d49e2dbda727414aa1dc8c9f6ea84d950131de5ae07135a.cpp">here</a>.
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/a_real_ear_twister/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="binary" data-stage="HSCTF">
+<div id="header-Caesar" data-challenge="Caesar" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="4835411d-8881-e72a-88a8-b12abf16a6ac"></div>
+<div class="challenge-text truncate">Caesar</div>
+<span class="right">
+<span>Spencer H</span>
+<b>·</b>
+<span id="solves-Caesar">21</span> solves
+<b>·</b>
+binary
+<b>·</b>
+300 pt
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith's friend told him he learned how to code a Caesar Cipher from online tutorials! Something doesn't seem right, however. Decipher the mystery at <code>nc shell.hsctf.com 10003</code><br>Files: <a href="https://compete.hsctf.com/static/problem_static/caesar_ee6c3841be1e21c73f06732dcb47fea263ef5a7d31194d54c11b1d19d013f6cc">caesar</a> <a href="https://compete.hsctf.com/static/problem_static/caesar_ee048992b7037d871140b18c5c5c3272c5c568d8f097f8449388f29cb09d5f67.c">caesar.c</a>
+<br><br>
+<a href="https://compete.hsctf.com/challenges/Caesar/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/Caesar/" data-challenge="Caesar" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-Caesar" name="flag" type="text">
+<label for="flag-Caesar">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="algo" data-stage="HSCTF">
+<div id="header-Counting Partitions" data-challenge="Counting Partitions" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="cf4d689f-de26-a425-97d6-c175c9b92622"></div>
+<div class="challenge-text truncate">Counting Partitions</div>
+ <span class="right">
+<span>Alan Yan</span>
+<b>·</b>
+<span id="solves-Counting Partitions">17</span> solves
+<b>·</b>
+algo
+<b>·</b>
+300 pt
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p><a href="https://drive.google.com/open?id=1zt6zpdf58qLqv74f8Qgm_gKrXEFYI7wSqCOhCbx6kN0">Problem Statement.</a><br>You can get the relevant text file <a href="https://compete.hsctf.com/dynamic/Counting%20Partitions">here</a>.
+<br><br>
+<a href="https://compete.hsctf.com/challenges/Counting%20Partitions/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/Counting%20Partitions/" data-challenge="Counting Partitions" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-Counting Partitions" name="flag" type="text">
+<label for="flag-Counting Partitions">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="crypto" data-stage="HSCTF">
+<div id="header-CuSmith" data-challenge="CuSmith" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="2e0655ff-beab-7ea8-82ac-5364b572f504"></div>
+<div class="challenge-text truncate">CuSmith</div>
+<span class="right">
+<span>Soumil Mukherjee</span>
+<b>·</b>
+<span id="solves-CuSmith">56</span> solves
+<b>·</b>
+crypto
+<b>·</b>
+300 pt
+<i id="check-CuSmith" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith wants to tear down a recruiting poster hung up by the CIA. However, to reach this poster, he must have a special password. Now, he has been observing Cueball, who is secretly sending this password to three of his friends (whose names conveniently happen to be Friend 1, Friend 2 and Friend 3). However, Cueball is smart, so he encrypts the password before sending it to his friends. Now, Keith wants to find the password to tear down this poster, but can't decrypt Cueball's messages. See if you're smarter than Cueball and can find out what the flag is. So far, <a href="https://compete.hsctf.com/dynamic/CuSmith">this</a> is what Keith has.<br>Note: The flag is a decimal string.
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/CuSmith/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="algo" data-stage="HSCTF">
+<div id="header-Keith Arithmetic" data-challenge="Keith Arithmetic" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="22251a2d-3534-e024-e460-bd7889f84507"></div>
+<div class="challenge-text truncate">Keith Arithmetic</div>
+<span class="right">
+<span>Alan Yan</span>
+<b>·</b>
+<span id="solves-Keith Arithmetic">8</span> solves
+<b>·</b>
+algo
+<b>·</b>
+300 pt
+ <div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p><a href="https://drive.google.com/open?id=1dd-G6LGNhGiE-FLlHSGXkWTAcoiv1d3rlnCo4WHV4NQ">Problem Statement.</a><br>The text file can be found <a href="https://compete.hsctf.com/dynamic/Keith%20Arithmetic">here</a>.
+<br><br>
+<a href="https://compete.hsctf.com/challenges/Keith%20Arithmetic/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/Keith%20Arithmetic/" data-challenge="Keith Arithmetic" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-Keith Arithmetic" name="flag" type="text">
+<label for="flag-Keith Arithmetic">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="algo" data-stage="HSCTF">
+<div id="header-The Game" data-challenge="The Game" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="c7c040cc-ea67-d646-35c8-310f346fae34"></div>
+<div class="challenge-text truncate">The Game</div>
+<span class="right">
+<span>Matthew Ye</span>
+<b>·</b>
+<span id="solves-The Game">10</span> solves
+<b>·</b>
+algo
+<b>·</b>
+300 pt
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Every week, Keith and his friend Jan play a game dubbed The Game. Contrary to the version the reader has just lost, this game takes place on a rooted, directed tree with all edges directed from parent to children. Each leaf is assigned a number from 1 to m, where m is the number of leaves. In the game, a token begins at the root and ends when it reaches a leaf - Keith and Jan take turns moving it down the tree along the edges. The result of the game is the value of the leaf the token ends on. Keith always goes first and tries to maximize the result of the game, while Jan tries to minimize the result of the game. Assuming Keith and Jan play optimally, find the result if Keith is allowed to arrange the values of the leaves in any order before the game, and the result if Jan is allowed to arrange the values of the leaves in any order before the game. The answer is given as KeithResult_JanResult. For example, if the result with Keith's leaf arrangement is 4 and the result with Jan's leaf arrangement is 3, the answer will be 4_3. You can find a description of the tree <a href="https://compete.hsctf.com/static/problem_static/graph_b915f28d7c35d3fe1a10af858cc0c59b5beb23c70407c2682304f010d4f5f8c6.txt">here</a> - the first line gives the number of nodes N, and the remaining lines give edges <i>u v</i> which represent an edge directed from node u towards node v. The root is node 1. Please note that the file contains the node <i>labels</i>, not the values inside the nodes (which is exclusive to the leaves.)
+<br><br>
+<a href="https://compete.hsctf.com/challenges/The%20Game/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/The%20Game/" data-challenge="The Game" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-The Game" name="flag" type="text">
+<label for="flag-The Game">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="crypto" data-stage="HSCTF">
+<div id="header-Blown Apart" data-challenge="Blown Apart" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="8b3db2ff-a340-8a5b-6177-2f22ae5555ad"></div>
+<div class="challenge-text truncate">Blown Apart</div>
+<span class="right">
+<span>Soumil Mukherjee</span>
+<b>·</b>
+<span id="solves-Blown Apart">26</span> solves
+<b>·</b>
+crypto
+<b>·</b>
+350 pt
+<i id="check-Blown Apart" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith has discovered that Cueball is, yet again, sending everyone (except for Keith) some message, again encrypted using RSA. However, this time the number of people who received Cueball's message is more than 6!. Help Keith decrypt Cueball's message! Keith has been eavesdropping on Cueball's conversations, and has a complete log saved at <a href="https://compete.hsctf.com/static/problem_static/file_5334d53c0ceea20488252703ca7cde95bde8558bba2c7eb4a70791f7df1d70e1.txt">file.txt</a>.<br>Note: The flag to this problem is of the form <code>flag{a_string_of_some_sort}</code>.
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Blown%20Apart/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="reversal" data-stage="HSCTF">
+<div id="header-ASM" data-challenge="ASM" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="47838d70-30d7-42a0-599d-0181d646a9ce"></div>
+<div class="challenge-text truncate">ASM</div>
+<span class="right">
+<span>Spencer H</span>
+<b>·</b>
+<span id="solves-ASM">5</span> solves
+<b>·</b>
+reversal
+<b>·</b>
+400 pt
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith sent me a file and told me he encoded it twice, once using "special ASM". He also mentioned that it was really "wiird", but maybe that was just a typo. Any idea what he's trying to tell me?<br>File: <a href="https://compete.hsctf.com/static/problem_static/froginablender_0e1fb20ebbf6231517788984eb40b17febda3d2c774c7523c2aa456424c128e3.txt">froginablender.txt</a>. I hope you have a paper and pencil handy.
+<br><br>
+<a href="https://compete.hsctf.com/challenges/ASM/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/ASM/" data-challenge="ASM" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-ASM" name="flag" type="text">
+<label for="flag-ASM">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+ <input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="algo" data-stage="HSCTF">
+<div id="header-Deadfish" data-challenge="Deadfish" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="e7dec785-76b6-ef8a-9d3d-684d93461447"></div>
+<div class="challenge-text truncate">Deadfish</div>
+<span class="right">
+<span>Jakob Degen</span>
+<b>·</b>
+<span id="solves-Deadfish">12</span> solves
+<b>·</b>
+algo
+<b>·</b>
+400 pt
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p><a href="https://compete.hsctf.com/static/problem_static/Deadfish_aa0ba96dc4ab4b7e187b28323f939044845a5936c0486359c52f68ef0971cdb4.pdf">Problem description</a><br><br><a href="https://compete.hsctf.com/static/problem_static/file_0ebc1aded82f05dbe48a0258edbb27aa5976863e7ddfd9224944a2de398167f6.txt">List of digits</a>
+<br><br>
+<a href="https://compete.hsctf.com/challenges/Deadfish/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/Deadfish/" data-challenge="Deadfish" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-Deadfish" name="flag" type="text">
+<label for="flag-Deadfish">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="reversal" data-stage="HSCTF">
+<div id="header-Kinda Dumb" data-challenge="Kinda Dumb" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="05ca7681-ee8d-5c8e-bdf4-db566a4ab2a3"></div>
+<div class="challenge-text truncate">Kinda Dumb</div>
+<span class="right">
+<span>Jason Yang</span>
+<b>·</b>
+<span id="solves-Kinda Dumb">10</span> solves
+<b>·</b>
+reversal
+<b>·</b>
+400 pt
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith has written a dumb program: <a href="https://compete.hsctf.com/static/problem_static/src_8df69da891388a219fa587255618b0dab87c3a3800cc48a4f32dd9bdda7a848a.zip">src.zip</a>.<br>Note: The flag to this problem is of the form <code>flag{a_string_of_some_sort}</code>.
+<br><br>
+<a href="https://compete.hsctf.com/challenges/Kinda%20Dumb/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/Kinda%20Dumb/" data-challenge="Kinda Dumb" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-Kinda Dumb" name="flag" type="text">
+<label for="flag-Kinda Dumb">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="reversal" data-stage="HSCTF">
+<div id="header-Lambdas In Prime Condition" data-challenge="Lambdas In Prime Condition" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="f2e7da7f-642e-5bfd-e5a3-ec3685c175ad"></div>
+<div class="challenge-text truncate">Lambdas In Prime Condition</div>
+<span class="right">
+<span>Parth Shastri</span>
+<b>·</b>
+<span id="solves-Lambdas In Prime Condition">10</span> solves
+<b>·</b>
+reversal
+<b>·</b>
+400 pt
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith's friend told her one day 'lambda lambda lambda lambda lambda'. Now Keith didn't know what a lambda was, and her friend sent her a file that looked like all 'lambdas'. Her friend challenged her to find the solution. Can you help her? The file is located <a href="https://compete.hsctf.com/static/problem_static/lambda_c893009f7427df45cd7dc872d20e5e108080f40e8b77c01580d72feaa2178934.py">here</a>.
+<br><br>
+<a href="https://compete.hsctf.com/challenges/Lambdas%20In%20Prime%20Condition/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/Lambdas%20In%20Prime%20Condition/" data-challenge="Lambdas In Prime Condition" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-Lambdas In Prime Condition" name="flag" type="text">
+<label for="flag-Lambdas In Prime Condition">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="reversal" data-stage="HSCTF">
+<div id="header-Prime Suspect" data-challenge="Prime Suspect" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="262af325-826c-9877-feb9-51d500114c23"></div>
+<div class="challenge-text truncate">Prime Suspect</div>
+<span class="right">
+<span>Vaibhav Sanjay and Akhil Paulraj</span>
+<b>·</b>
+<span id="solves-Prime Suspect">22</span> solves
+<b>·</b>
+reversal
+<b>·</b>
+400 pt
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith's teacher, Ms. Eclipse, really likes to talk about special numbers with her students.<br><br>On show and tell day, Keith decided it was time to share her special project. Keith showed a piece of code to her class hoping to impress her teacher. Keith's teacher told her "Wow, those are some really <strong>unique</strong> numbers." Then, to the class "Who can find the input to this program?" <br><br><strong><u>Find the input before the rest of the class!</u></strong><br><br>You can download the necessary text file <a href="https://compete.hsctf.com/static/problem_static/PrimeSuspect_e2291318082342a003bd42b5cdbd679409aa07c5b08b3438c837bbf82606c467.java">here</a>
+<br><br>
+<a href="https://compete.hsctf.com/challenges/Prime%20Suspect/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/Prime%20Suspect/" data-challenge="Prime Suspect" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-Prime Suspect" name="flag" type="text">
+<label for="flag-Prime Suspect">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="web" data-stage="HSCTF">
+<div id="header-Spambots" data-challenge="Spambots" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="ecc0654f-3e07-57c5-916e-e243bb3bff88"></div>
+<div class="challenge-text truncate">Spambots</div>
+<span class="right">
+<span>Soumil Mukherjee</span>
+<b>·</b>
+<span id="solves-Spambots">51</span> solves
+<b>·</b>
+web
+<b>·</b>
+400 pt
+<i id="check-Spambots" class="material-icons green-text right check-icon">done</i>
+</span>
+</div>
+<div class="collapsible-body">
+<p>After your programming exploits helped Keith solve all his problems so far, a mysterious <a href="http://206.189.179.133/">BunSpace</a> user named 'admin' has requested him for help. Over the last few months, a number of spambots have appeared on BunSpace, and are spending their virtual time posting spam posts throughout the network. There are hundreds of such spambots, each with a username consisting of "spambot", followed by a five digit number (for example, <a href="http://206.189.179.133/user/?user=spambot01136">spambot01136</a>). admin realizes that the problem is too large to solve, but she wants to take down the biggest perpetrators. Keith's job is to find the usernames of the three most active spambots, so admin can disable their accounts.<br>Unfortunately, admin cannot give Keith much information - all she tells him is that the <code>posts</code> table has columns called author, content and time, and the <code>users</code> table has columns username, password, firstname, lastname.<br>Figure out the three most active spambots, and the flag is the three five-digit IDs concatenated together, in order.<br><br>For example, if spambot00000, spambot11111, spambot22222, spambot33333 and spambot44444 had 2, 3, 1, 6, 4 posts respectively, the flag would be 333334444411111.
+<br><br><strong>Your team has solved this challenge!</strong><br>
+<a href="https://compete.hsctf.com/challenges/Spambots/solves/">View solves</a>
+</p>
+</div></li>
+<li class="challenge" data-category="other" data-stage="HSCTF">
+<div id="header-striations" data-challenge="striations" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="c4b5ce66-7550-f5b9-dfdb-64f8eeeb6cd9"></div>
+<div class="challenge-text truncate">Striations</div>
+<span class="right">
+<span>Ezra Edelman</span>
+<b>·</b>
+<span id="solves-striations">11</span> solves
+<b>·</b>
+other
+<b>·</b>
+400 pt
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith found a very weird file, but quickly decodes it, saying "that rectangle was light work, you just have to look at it with a human's eyes". Can you decode <a href="https://compete.hsctf.com/static/problem_static/problem_2c99c482720bd00f58f4c0f15f05d9405584f65feebe1b2c9c8fe6878108cacf.txt">the file</a>?
+<br><br>
+<a href="https://compete.hsctf.com/challenges/striations/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/striations/" data-challenge="striations" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-striations" name="flag" type="text">
+<label for="flag-striations">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+ </div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="binary" data-stage="HSCTF">
+<div id="header-Alarm" data-challenge="Alarm" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="cfbed8c6-a3bc-1b5b-0ef0-061a9aead863"></div>
+<div class="challenge-text truncate">Alarm</div>
+<span class="right">
+<span>Spencer H</span>
+<b>·</b>
+<span id="solves-Alarm">14</span> solves
+<b>·</b>
+binary
+<b>·</b>
+450 pt
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith hates waking up early, so he wrote a custom alarm at <code>nc shell.hsctf.com 10004</code><br>Files: <a href="https://compete.hsctf.com/static/problem_static/alarm_cb014b7772a50f6a7b6d5df3f4cdcc3c8b7e0f0d319828d312f5f3f1f94d269a">alarm</a>
+<br><br>
+<a href="https://compete.hsctf.com/challenges/Alarm/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/Alarm/" data-challenge="Alarm" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-Alarm" name="flag" type="text">
+<label for="flag-Alarm">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="crypto" data-stage="HSCTF">
+<div id="header-Insecure Keith" data-challenge="Insecure Keith" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="5b1a6853-d3e9-61f1-51a7-c7391dce40de"></div>
+<div class="challenge-text truncate">Insecure Keith</div>
+<span class="right">
+<span>Alan Yan</span>
+<b>·</b>
+<span id="solves-Insecure Keith">0</span> solves
+<b>·</b>
+crypto
+<b>·</b>
+500 pt
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p>On Keith's math study guide he found a very cryptic message:<br><br>KTTKKKKT<br>KKKTTTTT<br>KTTKKKTT<br>KKKKKKTT<br>KTTKTTTT<br>KTKKKKTK<br>TTTKTKTT<br>KTKKKKKT<br>KTKTKKKT<br>KKTTTKTK<br>TKKTKKTT<br>KKKKTKTT<br>KTKKKTKT<br>KTKKTKKK<br>KTKKKTKK<br>TKKTTKKK<br>283<br><br>In his pocket, Keith finds a key with a tag labelled:<br>You are the key!<br>If you figure out the message, the flag you will find.<br>
+<br><br>
+<a href="https://compete.hsctf.com/challenges/Insecure%20Keith/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/Insecure%20Keith/" data-challenge="Insecure Keith" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-Insecure Keith" name="flag" type="text">
+<label for="flag-Insecure Keith">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+<li class="challenge" data-category="reversal" data-stage="HSCTF">
+<div id="header-ABCDEFfPQRSTxy" data-challenge="ABCDEFfPQRSTxy" class="collapsible-header">
+<div class="status-dot green circle tooltipped" data-position="right" data-tooltip="This challenge is Online" data-tooltip-id="27b07173-5888-b7d2-1ebd-3543016e666a"></div>
+<div class="challenge-text truncate">ABCDEFfPQRSTxy</div>
+<span class="right">
+<span>Jason Yang, Jakob Degen</span>
+<b>·</b>
+<span id="solves-ABCDEFfPQRSTxy">3</span> solves
+<b>·</b>
+reversal
+<b>·</b>
+600 pt
+<div class="check-pad"></div>
+</span>
+</div>
+<div class="collapsible-body">
+<p>Keith took a very small screenshot of a document to post on the internet, which he saved as a JPEG. Immediately, he realized that the bottom row of pixels in his JPEG contained sensitive information, so he opened the image with his favorite image editor and replaced the bottom row with black, saving the image as a PNG: <a href="https://compete.hsctf.com/static/problem_static/keith_6cff91f91991fb5c26ec8511f2b0358ab82a1c5878205b14d8ddba8aa0251ecf.png">keith.png</a>. Find out what the bottom row of pixels originally contained. <br>Note: the flag is the bottom row of pixels encoded in hex (e.g. <code>F0E1D2C3B4A59687</code>). Use caps.
+<br><br>
+<a href="https://compete.hsctf.com/challenges/ABCDEFfPQRSTxy/solves/">View solves</a>
+</p>
+<form class="flag-form" action="https://compete.hsctf.com/submit/ABCDEFfPQRSTxy/" data-challenge="ABCDEFfPQRSTxy" method="POST">
+<div class="row no-bot">
+<div class="col s12 m10">
+<div class="input-field">
+<input required="" id="flag-ABCDEFfPQRSTxy" name="flag" type="text">
+<label for="flag-ABCDEFfPQRSTxy">Flag</label>
+</div>
+</div>
+<div class="col s12 m2">
+<button class="btn waves-effect waves-light flag-submit" type="submit">Submit</button>
+</div>
+<input name="_csrf_token" type="hidden" value="tuv5ybg3humg0vworu7oqcp2n7rgluekzg5fzbusazsntjdlivcjsfvscaxk14nf">
+</div>
+</form><br>
+</div></li>
+</ul>
+</div>
+<script src="./HSCTF – Challenges_files/jquery.min.js"></script>
+<script src="./HSCTF – Challenges_files/materialize.min.js"></script>
+<script src="./HSCTF – Challenges_files/jquery.timeago.min.js"></script>
+<script src="./HSCTF – Challenges_files/vis.min.js"></script>
+<script src="./HSCTF – Challenges_files/api.js"></script>
+<script src="./HSCTF – Challenges_files/main.js"></script>
+<script>
+        $(function() {
+            $("abbr.time[title='1970-01-01 00:00:00']").attr("title", "").removeClass("time").html("None");
+            $("abbr.time").timeago();
+            $('.button-collapse').sideNav();
+        });
+        </script>
+<script id="toasts" type="text/javascript">
+            
+        </script>
+<script>
+    $(function() {
+        $("select").material_select();
+    });
+</script>
+<script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-64770282-2', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
+<div class="material-tooltip" id="11e928ab-9f81-d616-3cb2-bee545954564"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="9f1f023f-59c9-8597-5f06-1b2083debf67"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="5759ecc7-08dd-7258-935e-608f36600414"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="1c0e0e1a-aeaf-5289-fa72-b8146fbd4c78"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="c8a28cc6-529f-6909-7ea4-6c38e2f3b957"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="ebbbd537-3b36-ece5-3b12-9f2be62cafa4"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="6aa57f1b-c069-695d-109c-44fd03a6fe37"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="d8e959c7-5069-26f6-b7de-baf226d12dc3"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="3526fd4e-d900-f263-0362-e19f19bb95a7"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="d25dbbba-c149-3455-0eb4-6d93e7159d69"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="e63d1f00-a2cc-46b2-bc15-b3bb51595973"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="21ffd402-3269-425b-3439-76608ae29ad7"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="59975c29-094c-cab4-d49e-b5c4279747f4"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="bff17655-09cf-0809-98d3-2aed73694fa3"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="c85bc1a1-6c65-65d5-62df-f8e61dde87b3"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="0e345955-7bd3-6471-0013-99521a67dbee"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="8c939ee4-e4ed-06a3-e6c9-dce6e3898a78"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="b0091d57-24a0-3fc9-13f2-fd34a12a81a9"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="41369920-1062-01bb-464d-2becfe9ec5db"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="5141fd63-c265-4a25-b49b-2138baa946bd"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="33118076-3cf1-681a-cdb9-a6128f13ac24"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="44fdfce6-3cf9-86e5-a50a-6dab87400764"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="f3de65c4-6523-5a4d-f731-aa5d09f2fdf6"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="25ea6ccd-d2a5-2e10-7d75-1197c5fa8eb4"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="6f0afb44-970e-f44a-cf3e-f911a310248b"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="ffc3636a-597b-72ca-97ce-9e8823d38dbc"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="4835411d-8881-e72a-88a8-b12abf16a6ac"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="cf4d689f-de26-a425-97d6-c175c9b92622"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="2e0655ff-beab-7ea8-82ac-5364b572f504"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="22251a2d-3534-e024-e460-bd7889f84507"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="c7c040cc-ea67-d646-35c8-310f346fae34"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="8b3db2ff-a340-8a5b-6177-2f22ae5555ad"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="47838d70-30d7-42a0-599d-0181d646a9ce"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="e7dec785-76b6-ef8a-9d3d-684d93461447"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="05ca7681-ee8d-5c8e-bdf4-db566a4ab2a3"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="f2e7da7f-642e-5bfd-e5a3-ec3685c175ad"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="262af325-826c-9877-feb9-51d500114c23"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="ecc0654f-3e07-57c5-916e-e243bb3bff88"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="c4b5ce66-7550-f5b9-dfdb-64f8eeeb6cd9"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="cfbed8c6-a3bc-1b5b-0ef0-061a9aead863"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="5b1a6853-d3e9-61f1-51a7-c7391dce40de"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="material-tooltip" id="27b07173-5888-b7d2-1ebd-3543016e666a"><span>This challenge is Online</span><div class="backdrop" style="top: 0px; left: 0px;"></div></div><div class="hiddendiv common"></div><div class="drag-target" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div></body></html>
